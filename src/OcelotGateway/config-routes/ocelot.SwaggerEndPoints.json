@@ -1,0 +1,37 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "bffweb",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "BFF.Web",
+          "Version": "1.0",
+          "Url": "http://localhost:5200/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "location",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Location.API",
+          "Version": "1.0",
+          "Url": "http://localhost:5202/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "catalog",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Catalog.API",
+          "Version": "1.0",
+          "Url": "http://localhost:5201/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
